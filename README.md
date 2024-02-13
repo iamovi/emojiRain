@@ -26,4 +26,30 @@
 </script>
 ```
 
+#### Style Customization
+```css
+/* change to your desired styles */
+.love-emoji {
+    position: absolute;
+    animation: fall 5s linear infinite;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+@keyframes fall {
+    0% {
+      transform: translateY(-100%);
+      opacity: 1;
+    }
+    100% {
+      transform: translateY(55vh);
+      opacity: 0;
+    }
+}
+```
 ![emojiRain-banner](banner.gif)
