@@ -18,4 +18,12 @@
 <div class="love-emojis"></div>
 ```
 
+### add custom Emojis (Optional)
+```html
+<script>
+  // add your desired emojis...
+  EmojiRain.addCustomEmojis(['🌹', '🌈']);
+</script>
+```
+
 ![emojiRain-banner](banner.gif)
