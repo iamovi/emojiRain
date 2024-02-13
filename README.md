@@ -1,6 +1,4 @@
-![emojiRain-banner](banner.gif)
-
-## Installation via CDN
+## emojiRain Installation via CDN
 
 ### CSS
 ```html
@@ -13,3 +11,11 @@
 <!-- emojiRain JS -->
 <script src="https://iamovi.github.io/emojiRain/dist/emojirain.js"></script>
 ```
+
+#### Now add this div to your btml body,
+```html
+<!-- emojiRain -->
+<div class="love-emojis"></div>
+```
+
+![emojiRain-banner](banner.gif)
