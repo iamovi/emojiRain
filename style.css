@@ -90,6 +90,9 @@ a {
   -o-background-size: cover;
   background-size: cover;
   }
+.a {
+top: 45%
+}
   
   .b {
     top: 55%;
