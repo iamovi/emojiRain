@@ -1,4 +1,4 @@
-## emojiRain Installation via CDN
+## emojiRain Quick Installation via CDN
 
 ### CSS
 ```html
