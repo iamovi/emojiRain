@@ -5,7 +5,7 @@
 ### CSS
 ```html
 <!-- emojiRain css -->
-    <link href="https://iamovi.github.io/emojiRain/dist/emojirain.css" rel="stylesheet">
+<link href="https://iamovi.github.io/emojiRain/dist/emojirain.css" rel="stylesheet">
 ```
 
 ### JS
