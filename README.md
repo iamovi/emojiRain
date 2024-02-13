@@ -15,7 +15,7 @@
 #### Now add this div to your btml body,
 ```html
 <!-- emojiRain -->
-<div class="love-emojis"></div>
+<div class="emojiRain"></div>
 ```
 
 ### add custom Emojis (Optional)
