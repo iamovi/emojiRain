@@ -1,1 +1,1 @@
-![emojiRain-banner](https://iamovi.github.io/emojiRain/banner.gif)
+![emojiRain-banner](banner.gif)
