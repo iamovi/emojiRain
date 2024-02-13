@@ -22,7 +22,7 @@
 ```html
 <script>
   // add your desired emojis...
-  EmojiRain.addCustomEmojis(['🌹', '🌈']);
+  EmojiRain.addCustomEmojis(['🌹', '🌈', '🐸', '🚗', '😂', '🤣', '😜', '😎']);
 </script>
 ```
 
