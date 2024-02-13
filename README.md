@@ -39,6 +39,7 @@
     left: 0;
     right: 0;
     margin: auto;
+    pointer-events: none;
   }
 
 @keyframes fall {
