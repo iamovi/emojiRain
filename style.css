@@ -1,0 +1,106 @@
+
+body {
+  background: url(back.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+h2 {
+  font-family: "Smooch Sans", sans-serif;
+  font-size: 2em;
+  font-weight: bolder;
+  text-align: center;
+  letter-spacing: 15px;
+  color: white;
+}
+.rainbow-text {
+  background: linear-gradient(to right, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  color: transparent;
+  background-size: 200% auto;
+  animation: rainbow-animation 5s linear infinite;
+}
+
+@keyframes rainbow-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+a {
+    margin: 15px;
+    text-decoration: none;
+}
+.love-emojis {
+  pointer-events: none;
+  
+}
+.a, .b {
+  position: fixed;
+  top: 50%;
+  padding: 10px 50px;
+}
+.b {
+  top: 60%;
+}
+.github-icon {
+  position: fixed;
+  top: 5px; /* Adjust positioning */
+  right: 0; /* Adjust positioning */
+  font-size: 24px;
+  color: black; /* Adjust color as needed */
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.9); /* Adjust transparency as needed */
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add subtle shadow */
+  z-index: 999;
+}
+
+
+
+.github-icon::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: -7px;
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid white; /* Adjust size and color */
+  transform: translateY(-50%);
+}
+
+
+@media only screen and (min-width: 600px) {
+  body {
+    background: url(bback.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  }
+  
+  .b {
+    top: 55%;
+  }
+  .b, .a {
+    padding: 20px 60px;
+  }
+  h2 {
+    font-size: 5em;
+  }
+  .github-icon {
+    font-size: 5em;
+  }
+}
