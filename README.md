@@ -1,4 +1,4 @@
-## emojiRain Quick Installation via CDN
+## emojiRain Installation via CDN
 
 ### CSS
 ```html
@@ -12,7 +12,7 @@
 <script src="https://iamovi.github.io/emojiRain/dist/emojirain.js"></script>
 ```
 
-#### Now add this div to your btml body,
+#### Now add this div to your html body,
 ```html
 <!-- emojiRain -->
 <div class="love-emojis"></div>
