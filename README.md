@@ -1,3 +1,1 @@
-# emojirain
-
-work in progress...
+![emojiRain-banner](https://iamovi.github.io/emojiRain/banner.gif)
